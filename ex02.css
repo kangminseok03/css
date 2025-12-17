@@ -1,0 +1,19 @@
+h3 { background-color: yellow; }
+.h3 { background-color: aqua; font-size: 30px; }
+#h3 { background-color: aliceblue;}
+
+#div2 { width: 200px; }
+.class3 { height: 200px; background-color: gray; }
+
+#div1 { background-color: gold; width: 200px; height: 200px; }
+.class1 { background-color: khaki; width: 200px; height: 200px; }
+.class2 { background-color: darkgreen; width: 200px; height: 200px; }
+#div1, .class1, .class2 { color: chartreuse; width: 400px; }
+#div3 { color: blue; width: 200px; }
+#div4 { color: blue; background-color: aqua; }
+
+
+
+
+h1 { color: skyblue; }
+h1 { background-color: gray; }
