@@ -1,53 +1,50 @@
-#wrap { width: 100px; height: 100px; }
+#wrap {width: 100px; height: 100px;}
 
 #logo > img {
-    width: 100px; height: 100px; border-radius: 100px;
+    width: 100px; height: 100px;
+    border-radius: 100px;
     &:hover {
         transform: scale(1.1);
         transition: all 0.1s;
     }
 }
 
-.item {
-    width: 100px; height: 200px; overflow: auto;
-    border: 1px solid gray; border-radius: 5px;
+.item { 
+    width: 100px; height: 200px; border: 2px solid gray; overflow: hidden;
+    border-radius: 5px;
 }
 
-.item > div:nth-of-type(1) {
-    width: 100px; height: 100px; overflow: hidden;
-}
-
-.item div:nth-of-type(1) > img {
-    width: 100px; height: 100px;
-        &:hover {
+.item img {
+    width: 100px; height: 100px; overflow: auto;
+    &:hover{
         transform: scale(1.1);
         transition: all 0.1s;
     }
 }
 
-.item > div:nth-of-type(2) {
-    width: 80px; height: 70px;
+.item div:nth-of-type(2) {
+    height: 70px;
 }
 
 .item div:nth-of-type(2) > a {
     color: black;
     text-decoration: none;
-    &:hover {
+    &:hover{
         color: red;
     }
 }
 
-.item > div:nth-of-type(3) {
+.item div:nth-of-type(3) {
     color: blue;
     text-align: right;
 }
 
-.item ~ button {
-    border: 1px solid;
+#wrap > button {
+    border: 1px;
     border-radius: 10px;
     background-color: gray;
     color: white;
     &:hover {
-        color: darkgreen;
+        background-color: green;
     }
 }
