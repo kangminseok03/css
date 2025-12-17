@@ -1,0 +1,9 @@
+#main { background-color: lightgray; }
+
+#main > h2 { color: gold; }
+
+#main > h2:hover + div > h2 { color: blue; }
+
+#main span:nth-of-type(1) { font-size:25px; }
+
+#main > div > div span:hover ~ span:nth-of-type(2) { background-color: red; }
