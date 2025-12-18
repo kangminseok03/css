@@ -1,0 +1,25 @@
+#quiz {
+    width: 1200px;
+    border: 1px solid;
+}
+
+#quiz div {
+    overflow: auto;    
+    display: inline-block;
+    width: 216px; height: 200px;
+    margin-right: 30px;
+    background-image: url("test용.jpg");
+    border: 0px solid gray;
+    text-align: center;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+}
+
+#quiz div:hover {
+    color: white;
+}
+
+#quiz div:nth-last-of-type(1) {
+    margin-right: 0px;
+}
+
