@@ -1,10 +1,4 @@
-#div1, #div2:hover {
-    
-}
-
-
 #div1 {
-    
     overflow: hidden;
     width: 150px; height: 150px;
     border-radius: 100%;
@@ -34,5 +28,4 @@ img {
         margin-top: 0;
         transition: 0.5s;
         color: darkblue;
-
 } 
