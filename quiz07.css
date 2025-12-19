@@ -1,0 +1,47 @@
+ul { margin: 0; padding: 0; }
+li { list-style: none; width: 100px; text-align: center; 
+     height: 40px; line-height: 40px;
+}
+
+#title { background-color: yellow;}
+/* 1,2번 문제 적용
+#menu { display: flex; }
+*/
+
+#head { width: 400px; }
+
+.mini {
+    /*
+    height: 120px;
+    display: none;
+    border: 1px solid;
+    */
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 100px;
+    background-color: aqua;
+
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* 1,3번문제 적용 
+
+#title li:hover .mini { 
+    height: 120px;
+    border: 1px solid;
+}
+*/
+
+/* 2번 문제 
+#title:hover .mini { 
+    height: 120px;
+    border: 1px solid;
+}
+*/
+
+#title li:hover .mini {
+    height: 120px;
+    border: 1px solid;
+}
